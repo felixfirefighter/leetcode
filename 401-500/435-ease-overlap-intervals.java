@@ -1,3 +1,6 @@
+// O(n log n)
+// 3 ms, faster than 69.85%
+// 39.6 MB, less than 60.93%
 class Solution {
   public int eraseOverlapIntervals(int[][] intervals) {
     if(intervals.length == 0) return 0;
