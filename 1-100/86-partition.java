@@ -1,13 +1,7 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+/*
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Partition List.
+Memory Usage: 38 MB, less than 19.10% of Java online submissions for Partition List.
+*/
 class Solution {
   public ListNode partition(ListNode head, int x) {
     var lessHead = new ListNode(0);
